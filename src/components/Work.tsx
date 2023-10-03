@@ -38,7 +38,7 @@ const Work = () => {
         {/* Card 1 */}
         <div className={styles.card}>
           <a href="https://aimm.vercel.app/">
-            <img src="Work4.jpg" alt="Work 1" />
+            <img src="work4.jpg" alt="Work 1" />
           </a>
         </div>
         {/* Card 2 */}
