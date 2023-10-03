@@ -25,7 +25,7 @@ const Contact = () => {
             <div className={styles.formGroup}>
               <textarea
                 placeholder="Message" name='Message'
-                rows="5"
+                
                 className={styles.textarea}
               ></textarea>
             </div>
