@@ -1,0 +1,155 @@
+/* styles/Contact.module.css (or your appropriate CSS file) */
+
+.contactPage {
+  margin-top: 21%;
+margin-left: 50px;
+  min-height: 80vh;
+
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contactHeading {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactInfo {
+  font-size: 25px;
+  width: 40%;
+  text-align: left;
+}
+
+.contactInfo h2 {
+  font-size: 30px;
+}
+.downloadButton{
+  background-color: white;
+    border: none;
+    border-radius: 20px; /* Adjust the value to control the level of rounding */
+    color: black;
+    cursor: pointer;
+    font-size: 20px; /* Optional: Adjust the font size as needed */
+    padding: 10px 20px;
+}
+
+.contactFormContainer {
+  margin-right: 5%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm {
+  width: 70%;
+  background-color: #1F2937;
+  padding: 20px;
+  border-radius: 5px;
+}
+/* Adjust background color and spacing for input fields */
+.inputField,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px; /* Reduce margin for spacing between fields */
+  background-color: #111; /* Set the background color to a lighter shade of black */
+  color: white; /* Set text color to white */
+  border: none; /* Remove the border */
+  border-radius: 5px;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+
+
+.Buttons {
+  background-color: #2DD4BF;
+  border: none;
+  border-radius: 20px; /* Adjust the value to control the level of rounding */
+  color: white;
+  cursor: pointer;
+  font-size: 20px; /* Optional: Adjust the font size as needed */
+  padding: 10px 20px;
+}
+
+.sendMessageButton:hover {
+  background-color: #555;
+}
+/* Adjust layout for mobile screens */
+@media (max-width: 600px) {
+  /* Add styles specific to small screens */
+  .contactContainer {
+    
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align elements */
+  }
+
+  .contactInfo {
+    width: 100%; /* Full width for contact info on mobile */
+    text-align: center; /* Center align text */
+  }
+  
+  .contactInfo, .contactHeading, .contactInfo h2 {
+    font-size: 20px; /* Adjust text size for mobile screens */
+  }
+  
+.contactFormContainer {
+ margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactForm{
+width: 100%;
+}
+.inputField{
+  width: auto;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px; /* Reduce margin for spacing between fields */
+  background-color: #111; /* Set the background color to a lighter shade of black */
+  color: white; /* Set text color to white */
+  border: none; /* Remove the border */
+  border-radius: 5px;
+}
+
+
+  .formGroup {
+  
+    width: 100%;
+    margin-bottom: 5px; /* Reduce margin for spacing between fields on mobile screens */
+  }
+
+  .textarea {
+    font-size: 14px; /* Adjust font size for textareas on mobile screens */
+  }
+  
+
+  .Buttons {
+    background-color: #2DD4BF;
+    color: white;
+    font-size: 14px; /* Adjust button text size for mobile screens */
+    padding: 8px 16px; /* Reduce button padding on mobile screens */
+  }
+  .Buttons {
+    background-color: #2DD4BF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    
+    cursor: pointer;
+    font-size: 15px; /* Adjust button text size for mobile screens */
+    padding: 10px 20px;
+  }
+}

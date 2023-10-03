@@ -1,0 +1,78 @@
+/* styles/Work.module.css (or your appropriate CSS file) */
+
+.workPage {
+    margin-top: 5%;
+    min-height: 100vh; /* Set the height to cover most of the screen */
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .card {
+    margin-left: 60px;
+    width: 28%; /* Adjust the card width as needed */
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex; /* Add display flex for card content alignment */
+    flex-direction: column; /* Align card content vertically */
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%; /* Set the image height to match the card's height */
+    object-fit: cover; /* Maintain image aspect ratio while covering the entire space */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover img {
+    transform: scale(1.05);
+  }
+ /* Increase specificity */
+div.custom-container .aos-animate {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.Zuhaib{
+  color:#2DD4BF ;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+}
+  
+  @media (max-width: 600px) {
+    .cardContainer {
+      flex-direction: column; /* Display cards in a single column for small screens */
+      align-items: center;
+      margin-left: 45px; /* Center-align cards in the column */
+    }
+  
+    .card {
+      width: 100%; /* Make cards full width for small screens */
+      margin-left: 0; /* Remove left margin for small screens */
+      margin-bottom: 20px; /* Add margin between cards on small screens */
+    }
+    .Zuhaib{
+      color:#2DD4BF ;
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+    }
+    .Zuhaib1{
+      color:whitesmoke ;
+      margin-left: 15%;
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+    }
+  }
+  

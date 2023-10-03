@@ -1,0 +1,105 @@
+/* styles/Skills.module.css (or your appropriate CSS file) */
+
+/* Add animation for skills */
+@keyframes skillAnimation {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Style for the skills card container */
+.CardContainer {
+  display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* Style for each skills card */
+.skillCard {
+  margin-left: 31%;
+  width: 35%; /* Adjust the card width as needed */
+  padding: 10px;
+
+  border-radius: 10px;
+  /* overflow: hidden; */
+  cursor: pointer;
+  display: flex; /* Add display flex for card content alignment */
+  flex-direction: column;
+
+
+  margin-top: 20px; /* Add margin between skills cards */
+  
+  background-color: #1F2937;
+  color: whitesmoke;
+  text-align: center;
+  
+  padding: 10px;
+  
+  transition: transform 0.2s;
+  animation: skillAnimation 0.5s ease-in-out forwards;
+}
+
+/* Style for skills card content */
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for card headings */
+.cardHeading {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.skillsPage {
+  margin-top: 5%;
+    min-height: 100vh; /* Set the height to cover most of the screen */
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.skillsContainer {
+  background-color: #1F2937;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  /* Adjust the width as needed */
+}
+.Zuhaib{
+  color:#2DD4BF ;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+ 
+}
+/* Adjust layout for mobile screens */
+@media (max-width: 600px) {
+  .skillsCardContainer {
+    
+      flex-direction: column; /* Display cards in a single column for small screens */
+      align-items: center;
+      margin-left: 45px;  /* Center-align skills cards in the column */
+  }
+
+  .skillCard {
+    width: 70%; /* Make cards full width for small screens */
+    margin-left: 22%; /* Remove left margin for small screens */
+    margin-bottom: 20px; /* Make skills cards full width for small screens */
+  }
+  .Zuhaib{
+    color:#2DD4BF ;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-left: 18%;
+  }
+}

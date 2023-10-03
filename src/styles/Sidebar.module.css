@@ -1,0 +1,29 @@
+.app {
+    display: flex;
+    overflow: hidden; /* Prevent content from overflowing */
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0; /* Position the sidebar to the left */
+    width: 60px; /* Set the desired width for the sidebar */
+    height: 100%; /* Make the sidebar fill the full height of the viewport */
+    background-color: #1F2937; /* Background color for the sidebar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0; /* Adjust padding as needed */
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #fff; /* Text color for links */
+    transition: color 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #00bcd4; /* Text color on hover */
+  }
+  
