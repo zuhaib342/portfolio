@@ -23,7 +23,7 @@ const Skills = () => {
     setSliderValues(initialSliderValues);
   }, []);
 
-  const handleCardClick = (index) => {
+  const handleCardClick = (index :number ) => {
     const newIsFlipped = [...isFlipped];
     newIsFlipped[index] = !newIsFlipped[index];
     setIsFlipped(newIsFlipped);
