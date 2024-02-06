@@ -14,10 +14,16 @@ const Work = () => {
         innovation.
       </h3>
       <div className={styles.cardContainer}>
-        {/* Card 1 */}
-        <div className={styles.card}>
-          <a href="https://raffels-app.vercel.app/">
-            <img src="Raffels-app.png" alt="Work 1" />
+         {/* Card 2 */}
+         <div className={styles.card}>
+          <a href="https://www.relaxoleather.store/">
+            <img src="relaxo.png" alt="Work 6" />
+          </a>
+        </div>
+         {/* Card 3 */}
+         <div className={styles.card}>
+          <a href="https://watery-throat.surge.sh/">
+            <img src="Nordic-Rose.png" alt="Work 3" />
           </a>
         </div>
         {/* Card 2 */}
@@ -26,19 +32,14 @@ const Work = () => {
             <img src="event-planner.png" alt="Work 2" />
           </a>
         </div>
-        {/* Card 3 */}
-        <div className={styles.card}>
-          <a href="https://watery-throat.surge.sh/">
-            <img src="Nordic-Rose.png" alt="Work 3" />
-          </a>
-        </div>
+       
         
       </div>
       <div className={styles.cardContainer}>
         {/* Card 1 */}
         <div className={styles.card}>
-          <a href="https://aimm.vercel.app/">
-            <img src="work4.jpg" alt="Work 1" />
+          <a href="https://raffels-app.vercel.app/">
+            <img src="Raffels-app.png" alt="Work 1" />
           </a>
         </div>
         {/* Card 2 */}
@@ -47,10 +48,10 @@ const Work = () => {
             <img src="github.png" alt="Work 2" />
           </a>
         </div>
-          {/* Card 2 */}
-          <div className={styles.card}>
-          <a href="">
-            <img src="work6.jpg" alt="Work 6" />
+          {/* Card 1 */}
+        <div className={styles.card}>
+          <a href="https://aimm.vercel.app/">
+            <img src="work4.jpg" alt="Work 1" />
           </a>
         </div>
         
